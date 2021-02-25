@@ -5,11 +5,17 @@
 
 body {
     font-family: var(--main-font);
+    color: #212121;
 }
 
 .link {
     text-decoration: none;
   }
+
+.link:hover,
+.link:focus {
+
+}
 
 .list {
     list-style: none;  
@@ -18,4 +24,204 @@ body {
 .address {
     font-style: normal;
 }
+
+/* ============= header ============= */
+.logo-header {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+
+}
+
+.web-logo {
+    color: #2196F3;
+}
+
+.studio-link {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.header-link {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;    
+}
+
+.mail-link {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3; 
+    cursor: pointer;   
+}
+
+.tel-link {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;    
+}
+
+/* ============= end header ============= */
+/* ============= hero ============= */
+
+.main-title {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */   
+}
+
+.hero-btn {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    
+    /* color: #FFFFFF; */
+}
+/* ============= end hero ============= */
+/* ============= skills ============= */
+.skills-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.skills-item {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* ============= end skills ============= */
+/* ============= what we do ============= */
+.activity-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;    
+}
+
+/* ============= end what we do ============= */
+/* ============= our team ============= */
+.team-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.member-title {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.member-item {
+    font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+/* ============= end our team ============= */
+/* ============= footer ============= */
+.logo-footer {
+    font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+/* color: #fff; */
+}
+
+.map {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    /* color: #FFFFFF; */
+}
+
+.footer-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+/* ============= end footer ============= */
+
+/* ============= portfolio ============= */
+
+/* ============= end portfolio ============= */
 
