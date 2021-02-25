@@ -1,6 +1,7 @@
 :root {
    --main-font: 'Roboto', sans-serif;
    --secondary-font: 'Raleway', sans-serif;
+   --accent-color: #2196F3;
 }
 
 body {
@@ -11,11 +12,6 @@ body {
 .link {
     text-decoration: none;
   }
-
-.link:hover,
-.link:focus {
-
-}
 
 .list {
     list-style: none;  
@@ -48,8 +44,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #212121;
     cursor: pointer;
+}
+
+.studio-link:hover,
+.studio-link:focus {
+    color: var(--accent-color);
 }
 
 .header-link {
@@ -62,6 +63,26 @@ body {
     color: #212121;    
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;    
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
 .mail-link {
     font-family: var(--main-font);
     font-style: normal;
@@ -69,18 +90,29 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3; 
-    cursor: pointer;   
+    color: #212121;  
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color:#2196F3;
 }
 
 .tel-link {
     font-family: var(--main-font);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;    
+    color: #212121;    
 }
+
+.tel-link:hover,
+.tel-link:focus {
+    color:#2196F3;
+}
+
 
 /* ============= end header ============= */
 /* ============= hero ============= */
@@ -100,6 +132,7 @@ body {
 
 .hero-btn {
     font-family: var(--main-font);
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -108,8 +141,10 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em; 
+    cursor: pointer;
     
-    /* color: #FFFFFF; */
+    color: #FFF;
+    background-color: #2196F3;
 }
 /* ============= end hero ============= */
 /* ============= skills ============= */
@@ -125,8 +160,6 @@ body {
 }
 
 .skills-item {
-    font-family: var(--main-font);
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -175,33 +208,31 @@ body {
 
 .member-item {
     font-family: var(--main-font);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
+    font-size: 16px;
+    line-height: 1.19;
 
-text-align: center;
-letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: #757575;
+    color: #757575;
 
 }
 /* ============= end our team ============= */
 /* ============= footer ============= */
 .logo-footer {
     font-family: var(--secondary-font);
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 
-/* color: #fff; */
+    /* color: #fff; */
 }
 
 .map {
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -210,9 +241,8 @@ letter-spacing: 0.03em;
 }
 
 .footer-link {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -222,6 +252,47 @@ letter-spacing: 0.03em;
 /* ============= end footer ============= */
 
 /* ============= portfolio ============= */
+/* ============= main ============= */
+.menu-btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+
+.portfolio-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: #212121; 
+}
+
+.portfolio-item {
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;    
+}
+
+/* ============= end main ============= */
 /* ============= end portfolio ============= */
 
